@@ -1,7 +1,3 @@
-下面是帮你**续写后的 README（已整理成论文/开源项目风格，可直接用）**：
-
----
-
 # TDV-Net
 
 **Multimodal TDV-Net unveils multitask Arctic sea ice segmentation via text-guided dual-domain modeling**
@@ -33,53 +29,21 @@ The model leverages RemoteCLIP-based text embeddings to inject semantic priors i
 We release all pretrained weights used in the paper.
 
 📥 **Google Drive Download Link:**
-[https://drive.google.com/drive/folders/XXXXXXXXXXXX](https://drive.google.com/drive/folders/XXXXXXXXXXXX)
-
-> Replace the above link with the official shared folder link.
+(https://drive.google.com/drive/folders/1KZMXgHsXUuztxPI44jKeFj29KYHLbop)
 
 The folder includes:
 
 * TDV-Net checkpoints
-* Ablation model weights
-* Training logs
-* Configuration files
+* diff checkpoints
 
 ---
 
 ## 🧠 RemoteCLIP-ViT Model
 
-TDV-Net uses **RemoteCLIP-ViT-L/14** for text embedding initialization.
+TDV-Net uses **RemoteCLIP-ViT-L** for text embedding initialization.
 
 📎 Official RemoteCLIP repository and weights:
 [https://github.com/RemoteCLIP/RemoteCLIP](https://github.com/RemoteCLIP/RemoteCLIP)
-
-If you use TGSI module, please download the pretrained model from the above repository and set the path in the configuration:
-
-```bash
-remoteclip_pretrained=/path/to/remoteclip-vit-l14.pt
-```
-
----
-
-## 🚀 Quick Start
-
-```bash
-git clone https://github.com/your-repo/TDV-Net.git
-cd TDV-Net
-pip install -r requirements.txt
-```
-
-### Training
-
-```bash
-python train.py --config configs/tdvnet.yaml
-```
-
-### Inference
-
-```bash
-python test.py --weights path_to_checkpoint.pth
-```
 
 ---
 
@@ -95,22 +59,9 @@ TDV-Net supports three output heads:
 
 ---
 
-## 📖 Citation
-
-If you find this work useful, please cite:
-
-```bibtex
-@article{tdvnet2026,
-  title={Multimodal TDV-Net unveils multitask Arctic sea ice segmentation via text-guided dual-domain modeling},
-  year={2026}
-}
-```
-
----
-
 ## 📬 Contact
 
 For questions or collaboration:
 
-* Email: [your_email@example.com](mailto:your_email@example.com)
+* Email: [huangmeng@jou.edu.cn]
 * Project: TDV-Net Arctic Sea Ice Segmentation
